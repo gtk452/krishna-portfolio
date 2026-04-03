@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { FiGithub, FiMail, FiArrowDown, FiLinkedin } from 'react-icons/fi'
 
 const socialLinks = [
-  { icon: <FiGithub />, href: 'https://github.com/gtkrishna06', label: 'GitHub' },
+  { icon: <FiGithub />, href: 'https://github.com/gtk452', label: 'GitHub' },
   { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/gudla-tirumala-krishna-ab5a28116/', label: 'LinkedIn' },
   { icon: <FiMail />, href: 'mailto:gtkrishna06@gmail.com', label: 'Email' },
 ]
