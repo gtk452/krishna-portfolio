@@ -13,7 +13,7 @@ const allProjects = [
     icons: [<SiReact />, <SiNextdotjs />, <SiStyledcomponents />],
     category: 'Education',
     gradient: 'linear-gradient(135deg, #a855f7 0%, #ec4899 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
   {
@@ -24,7 +24,7 @@ const allProjects = [
     icons: [<SiSvelte />, <SiNodedotjs />],
     category: 'Education',
     gradient: 'linear-gradient(135deg, #f97316 0%, #a855f7 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
   {
@@ -35,7 +35,7 @@ const allProjects = [
     icons: [<SiReact />, <SiNodedotjs />, <SiDocker />],
     category: 'Supply Chain',
     gradient: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
   {
@@ -46,7 +46,7 @@ const allProjects = [
     icons: [<SiReact />, <SiDocker />, <SiNodedotjs />],
     category: 'Supply Chain',
     gradient: 'linear-gradient(135deg, #10b981 0%, #06b6d4 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
   {
@@ -57,7 +57,7 @@ const allProjects = [
     icons: [<SiReact />, <SiStyledcomponents />],
     category: 'Open Source',
     gradient: 'linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
   {
@@ -68,7 +68,7 @@ const allProjects = [
     icons: [<SiAngular />, <SiMongodb />],
     category: 'Open Source',
     gradient: 'linear-gradient(135deg, #ec4899 0%, #f59e0b 100%)',
-    github: 'https://github.com/gtkrishna06',
+    github: 'https://github.com/gtk452',
     live: '#',
   },
 ]

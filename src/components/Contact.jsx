@@ -15,7 +15,7 @@ const contactInfo = [
 ]
 
 const socials = [
-  { icon: <FiGithub />, href: 'https://github.com/gtkrishna06', label: 'GitHub' },
+  { icon: <FiGithub />, href: 'https://github.com/gtk452', label: 'GitHub' },
   { icon: <FiMail />,   href: 'mailto:gtkrishna06@gmail.com',   label: 'Email'  },
 ]
 
