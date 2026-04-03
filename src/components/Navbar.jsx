@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiMenu, HiX } from 'react-icons/hi'
+import { FiDownload } from 'react-icons/fi'
 
 const navLinks = [
   { label: 'About', to: 'about' },
@@ -52,6 +53,14 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
+        <a
+          href="/G_Tirumala_Krishna_Resume.pdf"
+          download
+          className="btn btn-outline navbar__resume"
+        >
+          <FiDownload /> Resume
+        </a>
 
         <Link to="contact" smooth duration={600} className="btn btn-primary navbar__cta">
           Hire Me

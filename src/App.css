@@ -91,6 +91,14 @@
   font-size: 0.88rem;
 }
 
+.navbar__resume {
+  padding: 0.55rem 1.1rem;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .navbar__hamburger {
   display: none;
   background: none;
@@ -126,7 +134,7 @@
 }
 
 @media (max-width: 768px) {
-  .navbar__links, .navbar__cta { display: none; }
+  .navbar__links, .navbar__cta, .navbar__resume { display: none; }
   .navbar__hamburger { display: flex; }
 }
 

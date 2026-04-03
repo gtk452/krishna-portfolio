@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiCode, FiLayers, FiZap, FiShield } from 'react-icons/fi'
+import { FiCode, FiLayers, FiZap, FiShield, FiDownload } from 'react-icons/fi'
 
 const stats = [
   { value: '7+', label: 'Years Experience' },
@@ -60,8 +60,12 @@ export default function About() {
               <strong>Microsoft Azure Fundamentals (AZ-900)</strong> certification.
             </p>
             <div className="about__actions">
-              <a href="mailto:gtkrishna06@gmail.com" className="btn btn-primary">
-                Contact Me
+              <a
+                href="/G_Tirumala_Krishna_Resume.pdf"
+                download
+                className="btn btn-primary"
+              >
+                <FiDownload /> Download Resume
               </a>
               <a href="https://github.com/gtkrishna06" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                 GitHub Profile
