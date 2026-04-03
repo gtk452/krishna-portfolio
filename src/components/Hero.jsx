@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
 import { TypeAnimation } from 'react-type-animation'
-import { FiGithub, FiMail, FiArrowDown } from 'react-icons/fi'
+import { FiGithub, FiMail, FiArrowDown, FiLinkedin } from 'react-icons/fi'
 
 const socialLinks = [
   { icon: <FiGithub />, href: 'https://github.com/gtkrishna06', label: 'GitHub' },
+  { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/gudla-tirumala-krishna-ab5a28116/', label: 'LinkedIn' },
   { icon: <FiMail />, href: 'mailto:gtkrishna06@gmail.com', label: 'Email' },
 ]
 
