@@ -33,7 +33,7 @@ const socials = [
 export default function Contact() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const formRef = useRef(null)
-  const [form, setForm]       = useState({ name: '', email: '', message: '' })
+  const [form, setForm]       = useState({ from_name: '', from_email: '', message: '' })
   const [sent, setSent]       = useState(false)
   const [error, setError]     = useState('')
   const [loading, setLoading] = useState(false)
@@ -53,7 +53,7 @@ export default function Contact() {
         EMAILJS_PUBLIC_KEY
       )
       setSent(true)
-      setForm({ name: '', email: '', message: '' })
+      setForm({ from_name: '', from_email: '', message: '' })
       setTimeout(() => setSent(false), 5000)
     } catch (err) {
       console.error('EmailJS error:', err)
@@ -145,10 +145,10 @@ export default function Contact() {
               <input
                 id="name"
                 type="text"
-                name="name"
+                name="from_name"
                 className="form-input"
                 placeholder="John Doe"
-                value={form.name}
+                value={form.from_name}
                 onChange={handleChange}
                 required
               />
@@ -159,10 +159,10 @@ export default function Contact() {
               <input
                 id="email"
                 type="email"
-                name="email"
+                name="from_email"
                 className="form-input"
                 placeholder="john@example.com"
-                value={form.email}
+                value={form.from_email}
                 onChange={handleChange}
                 required
               />
