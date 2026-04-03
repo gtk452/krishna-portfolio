@@ -15,9 +15,9 @@ import emailjs from '@emailjs/browser'
 //  4. Go to Account → API Keys → copy your Public Key
 //  5. Replace the three placeholder strings below:
 // ─────────────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID'   // e.g. 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'  // e.g. 'template_xyz456'
-const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY'   // e.g. 'AbCdEfGhIjKlMnOp'
+const EMAILJS_SERVICE_ID  = 'service_f0x3d19'
+const EMAILJS_TEMPLATE_ID = 'template_h866wim'
+const EMAILJS_PUBLIC_KEY  = 'KQlc6vKFm3tQP_8HT'
 
 const contactInfo = [
   { icon: <FiMail />,  label: 'Email',    value: 'gtkrishna06@gmail.com', href: 'mailto:gtkrishna06@gmail.com' },
