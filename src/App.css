@@ -361,7 +361,7 @@
   color: var(--text-primary);
 }
 
-.about__actions { margin-top: 0.5rem; }
+.about__actions { margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
 
 .about__traits {
   display: flex;

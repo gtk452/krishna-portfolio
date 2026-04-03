@@ -67,7 +67,7 @@ export default function About() {
               >
                 <FiDownload /> Download Resume
               </a>
-              <a href="https://github.com/gtkrishna06" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+              <a href="https://github.com/gtk452" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                 GitHub Profile
               </a>
             </div>
