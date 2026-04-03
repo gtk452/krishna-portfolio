@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import { FiGithub } from 'react-icons/fi'
 import { SiReact, SiNextdotjs, SiSvelte, SiAngular, SiNodedotjs, SiMongodb, SiDocker, SiStyledcomponents } from 'react-icons/si'
 
 const allProjects = [
@@ -153,9 +153,6 @@ export default function Projects() {
                   <div className="project-card__links">
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
                       <FiGithub /> Code
-                    </a>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link project-link--primary">
-                      <FiExternalLink /> Live Demo
                     </a>
                   </div>
                 </div>
